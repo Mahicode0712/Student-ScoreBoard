@@ -1,0 +1,256 @@
+.app {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(135deg, #e91e8c, #c2185b);
+  border-radius: 14px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header h1 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.header span {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.75);
+  background: rgba(255,255,255,0.15);
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+/* Stats */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 1.5rem;
+}
+
+.stat {
+  background: #fff;
+  border: 1px solid #f4b8d1;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: #a0527a;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.stat-val {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.stat-val.avg { color: #e91e8c; }
+.stat-val.pass { color: #2e7d32; }
+.stat-val.fail { color: #c62828; }
+
+/* Card */
+.card {
+  background: #fff;
+  border: 1px solid #f4b8d1;
+  border-radius: 14px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: #c2185b;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 1rem;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+thead th {
+  text-align: left;
+  padding: 8px 12px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #a0527a;
+  border-bottom: 1px solid #f4b8d1;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+tbody tr {
+  border-bottom: 1px solid #fce4ec;
+  transition: background 0.15s;
+}
+
+tbody tr:last-child {
+  border-bottom: none;
+}
+
+tbody tr:hover {
+  background: #fdf0f5;
+}
+
+td {
+  padding: 10px 12px;
+  color: #2c0a1e;
+}
+
+/* Avatar */
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #fce4ec;
+  color: #c2185b;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+/* Badge */
+.badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.badge-pass {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.badge-fail {
+  background: #ffebee;
+  color: #c62828;
+}
+
+/* Score input */
+.score-input {
+  width: 70px;
+  padding: 5px 8px;
+  border: 1px solid #f4b8d1;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #2c0a1e;
+  background: #fff;
+  text-align: center;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.score-input:focus {
+  border-color: #e91e8c;
+  box-shadow: 0 0 0 3px rgba(233, 30, 140, 0.12);
+}
+
+/* Buttons */
+.btn {
+  padding: 5px 12px;
+  border: 1px solid #f4b8d1;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  background: #fff;
+  color: #c2185b;
+  transition: background 0.15s;
+}
+
+.btn:hover {
+  background: #fce4ec;
+}
+
+.btn-del {
+  color: #c62828;
+  border-color: #ffcdd2;
+}
+
+.btn-del:hover {
+  background: #ffebee;
+}
+
+.btn-submit {
+  background: #e91e8c;
+  color: #fff;
+  border-color: #e91e8c;
+  padding: 8px 22px;
+  font-size: 13px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.15s;
+  align-self: flex-end;
+}
+
+.btn-submit:hover {
+  background: #c2185b;
+}
+
+/* Form */
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 12px;
+  align-items: end;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-group label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #a0527a;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.form-group input {
+  padding: 8px 10px;
+  border: 1px solid #f4b8d1;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #2c0a1e;
+  background: #fff;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.form-group input:focus {
+  border-color: #e91e8c;
+  box-shadow: 0 0 0 3px rgba(233, 30, 140, 0.12);
+}
+
+.form-error {
+  color: #c62828;
+  font-size: 12px;
+  margin-top: 8px;
+}
