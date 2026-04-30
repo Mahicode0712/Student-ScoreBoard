@@ -4,6 +4,7 @@ function StudentTable({ students, onScoreChange, onDelete }) {
   return (
     <div className="card">
       <div className="card-title">Student Records</div>
+      <span>{count} students enrolled</span>
       <table>
         <thead>
           <tr>
