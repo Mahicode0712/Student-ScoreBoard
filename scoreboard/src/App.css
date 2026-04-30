@@ -4,7 +4,7 @@
   padding: 2rem 1.5rem;
 }
 
-/* Header */
+
 .header {
   background: #0f0f1a;
   border: 1px solid #00ffe7;
@@ -34,7 +34,7 @@
   border-radius: 20px;
 }
 
-/* Stats */
+
 .stats {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -78,7 +78,7 @@
   text-shadow: 0 0 8px #ff003c;
 }
 
-/* Card */
+
 .card {
   background: #0f0f1a;
   border: 1px solid #1e1e3a;
@@ -97,7 +97,7 @@
   text-shadow: 0 0 6px #00ffe7;
 }
 
-/* Table */
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -133,7 +133,7 @@ td {
   color: #e0e0ff;
 }
 
-/* Avatar */
+
 .avatar {
   width: 30px;
   height: 30px;
@@ -148,7 +148,7 @@ td {
   font-weight: 700;
 }
 
-/* Badge */
+
 .badge {
   display: inline-block;
   padding: 3px 10px;
@@ -171,7 +171,7 @@ td {
   text-shadow: 0 0 6px #ff003c;
 }
 
-/* Score input */
+
 .score-input {
   width: 70px;
   padding: 5px 8px;
@@ -190,7 +190,7 @@ td {
   box-shadow: 0 0 8px rgba(0, 255, 231, 0.3);
 }
 
-/* Buttons */
+
 .btn {
   padding: 5px 12px;
   border: 1px solid #2a2a4a;
@@ -241,7 +241,7 @@ td {
   box-shadow: 0 0 18px rgba(0, 255, 231, 0.5);
 }
 
-/* Form */
+
 .form-row {
   display: grid;
   grid-template-columns: 1fr 1fr auto;
