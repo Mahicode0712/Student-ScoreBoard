@@ -285,14 +285,3 @@ td {
   margin-top: 8px;
   text-shadow: 0 0 6px #ff003c;
 }
-keyframes pulse {
-  0% {
-    box-shadow: 0 0 8px rgba(255, 0, 60, 0.25);
-  }
-  50% {
-    box-shadow: 0 0 16px rgba(255, 0, 60, 0.5);
-  }
-  100% {
-    box-shadow: 0 0 8px rgba(255, 0, 60, 0.25);
-  }
-}
